@@ -1,5 +1,7 @@
 # **Proyecto: Analisis reviews de Google Maps y YELP**
-(Poner logo empresa)
+
+
+![Logo](https://user-images.githubusercontent.com/65837646/224367690-15359db3-7c2e-4ee4-9bfd-347ed091df9e.jpeg)
 
 
 ## **Tabla de contenidos**
@@ -33,15 +35,15 @@ Buscamos proporcionar el crecimiento de empresas a través de nuestro asesoramie
 ## **Alcance**
 
 Se encuentra dentro del alcance de este proyecto:
-    * Negocios objetivo: sector culinarios, sector hotelero.(Ver)
-    * La fuente que utulizamos como información son las reviews en Google Maps y Yelp.
-    * Nos centramos en Estados Unidos, principalemente en los 5 estados con mayor población.
-    * Los datos con los que contamos van desde 2004 a 2021.
+- Negocios objetivo: sector culinarios, sector hotelero.(Ver)
+- La fuente que utulizamos como información son las reviews en Google Maps y Yelp.
+- Nos centramos en Estados Unidos, principalemente en los 5 estados con mayor población.
+- Los datos con los que contamos van desde 2004 a 2021.
     
  **Fuera de nuestro alcance**:
-    * Toda empresa fuera de Estados Unidos.
-    * Toda empresa fuera de los sectores nombrados.
-    * Cualquier tarea que demande más recursos que los ya mencionados.
+- Toda empresa fuera de Estados Unidos.
+- Toda empresa fuera de los sectores nombrados.
+- Cualquier tarea que demande más recursos que los ya mencionados.
 
 
 
@@ -75,6 +77,6 @@ Algunas librerias que utilizaremos serán:
 Utilizaremos un método de trabajo ágil con enfoque en la metodología SCRUM apoyándonos en el software de administración de proyectos Trello, en donde dividiremos y asignaremos las actividades a realizar, actualizaremos nuestro diagrama de Gantt y mantendremos un seguimiento a todo el proyecto.
 
 
-![Scrum](https://user-images.githubusercontent.com/65837646/224351644-b5c20127-dea9-413d-87da-ed849eba735f.jpg)
+![Scrumm](https://user-images.githubusercontent.com/65837646/224367958-d317f972-fddf-4958-b178-38675c27f1d7.jpg)
 
 
