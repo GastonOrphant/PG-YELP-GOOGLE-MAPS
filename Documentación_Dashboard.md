@@ -1,6 +1,8 @@
 # Documentación Dashboard
 
 #### En la presente documentación encontrarán información pertinente a la elaboración del dashboard interactivo como parte de las actividades desarrolladas en este proyecto.Dicha información estará compuesta por una serie de conceptos más una descripción de los datos utilizados, su estructuración y las tecnologías empleadas para tal fin. Finalmente, una guía detallada de los elementos del dashboard y sus funcionalidades.
+
+LINK Dashboard: https://app.powerbi.com/links/jU9zNSC0Ol?ctid=85430b7f-f12c-48f1-b10e-f34a99e68727&pbi_source=linkShare
 ___
 <br>
 
