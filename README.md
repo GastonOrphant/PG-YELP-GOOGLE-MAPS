@@ -1,4 +1,4 @@
-# **Proyecto: Analisis reviews de Google Maps y YELP**
+# **Proyecto: Análisis reviews de Google Maps y YELP**
 
 
 ![Logo](https://user-images.githubusercontent.com/65837646/224367690-15359db3-7c2e-4ee4-9bfd-347ed091df9e.jpeg)
