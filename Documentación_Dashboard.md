@@ -1,39 +1,105 @@
 # Documentación Dashboard
 
-#### En la presente documentación encontrarán información pertinente a la elaboración del dashboard interactivo como parte de las actividades desarrolladas en este proyecto.Dicha información estará compuesta por una serie de conceptos más una descripción de los datos utilizados, su estructuración y las tecnologías empleadas para tal fin. Finalmente, una guía detallada de los elementos del dashboard y sus funcionalidades.
+#### En la presente documentación encontrarán información pertinente a la elaboración del dashboard interactivo como parte de las actividades desarrolladas en este proyecto. Dicha información estará compuesta por una serie de conceptos más una descripción de los datos utilizados, su estructuración y las tecnologías empleadas para tal fin. Finalmente, una guía detallada de los elementos del dashboard y sus funcionalidades.
 
 LINK Dashboard: https://app.powerbi.com/links/jU9zNSC0Ol?ctid=85430b7f-f12c-48f1-b10e-f34a99e68727&pbi_source=linkShare
 ___
 <br>
 
 ## Índice:
-1.   ¿Que es un Dashboard?
+1.   Stack Tecnologico
 <br>
 
-2.   Objetivos del Dashboard.
+2.   ¿Que es un Dashboard?
 <br>
 
-3.   ¿Que es Power Bi y porqué lo usamos?
+3.   Objetivos del Dashboard.
 <br>
 
-4.   Obtención de los datos y Conexión Big Query.
+4.   ¿Que es Power Bi y porqué lo usamos?
 <br>
 
-5.   Estructura de las tablas y Diccionario de datos.
+5.   Obtención de los datos y Conexión Big Query.
 <br>
 
-6.   Dashboard: Elementos y funcionalidades.  
+6.   Estructura de las tablas y Diccionario de datos.
 <br>
+
+7.   Dashboard: Elementos y funcionalidades.  
+<br>
+
+## Stack Tecnológico
+
+Para la realización del proyecto, el departamento de Data Analytics hizo uso del siguiente stack tecnológico:
+
+**[Google colab](https://colab.research.google.com/)**: Producto de Google. Colab permite que todos puedan escribir y ejecutar código arbitrario de Python en el navegador. Aqui se realizo el anlisis exploratorio de datos (EDA)
+
+**[Google Cloud Platform](https://cloud.google.com/?hl=es)**: Es un servicio ofrecido por Google , es un conjunto de servicios en la nube que se ejecuta en la misma infraestructura que Google.
+
+**[Google Meet](https://meet.google.com/)**: Es un servicio de reuniones virtuales desarrollado por Google.
+
+**[Power BI](https://powerbi.microsoft.com/en-au/)**: Es un producto de software de visualización de datos interactivo desarrollado por Microsoft.
+
+**[Trello](https://trello.com/create-first-team)**: Software de organización de proyectos en la web.
+
+**[Discord](https://discord.com/)**: Es un servicio de mensajería instantánea y chat de voz. Funciona a través de servidores y está separado en canales de texto o de voz.
+
+**[Python](https://www.python.org/)**: Lenguaje de programación, aplicado a lo ancho y largo del proyecto.
+
+**[Pandas](https://pandas.pydata.org/)** : Pandas es una libreria escrita para el lenguaje Python para la manipulación y el análisis de datos.
+
+**[Matplotlib](https://matplotlib.org/)**: Matplotlib es una libreria en Python  para crear visualizaciones de nuestros datos.
+
+**[Seaborn](https://seaborn.pydata.org/)**: Seaborn es una libreria de visualización de datos de Python basada en matplotlib.
+
+
 
 ## ¿Que es un Dashboard?
 
+Un dashboard es una interfaz gráfica interactiva que proporciona una vista a la información clave y métricas relevantes. Nos ayuda para monitorear y analizar el       desempeño de una empresa. Puede incluir gráficos, tablas, mapas, indicadores clave (KPI), diagramas, entre otros elementos visuales que se disponen, esto para         tener una vista rápida y clara de la información que se necesita para una mejor toma de decisiones. 
+
+
 ## Objetivos del Dashboard
+
+El objetivo principal del Dashboard es proporcionar una vista visual y facil de entender de la información de una empresa en tiempo real, también nos sirve para monitorear el desesmpeño de un proyecto, identificar tendencias, oportunidades y tomar decisiones estrategicas. Con el Dashboard buscamos mejorar la eficiencia y efectividad en la toma de decisiones de una empresa. 
+
+Algunos objetivos que buscamos alcanazar con el Dashboard son los siguientes:
+
+* **Visualizar los datos**: Presentar información de manera clara y concisa a través de gráficos, tablas, mapas y otros elementos visuales.
+* **Monitorear el desempeño**: Proporcionar una visión general del rendimiento de la empresa en tiempo real.
+* **Comunicar el progreso**: Mostrar el progreso de la empresa en relación con los objetivos establecidos, permitiendo a los usuarios identificar áreas de mejora y hacer ajustes.
+* **Identificar problemas**: Permitir a los usuarios detectar rápidamente los problemas y las áreas que necesitan mejoras, y tomar medidas para resolverlos.
+
+
 
 ## Que es Power Bi y porqué lo usamos?
 
+Power BI es una plataforma de inteligencia de negocios desarrollada por Microsoft que permite a los usuarios conectar, analizar y visualizar datos de manera rápida y fácil. Proporciona visulizaciones interactivas, paneles de control para monitorear la información. 
+
+¿Porque lo usamos?, la decisión de usar este software es por nuestra experiencia previa en la realización de Dashboard para antiguos trabajos, también por su interfaz dado que es de un uso facil, intuitiva e interactiva.
+
+
 ## Obtención de los datos y Conexión BigQuery
 
+Una vez realizada todas las tranformaciones pertinentes a los datos a través del departamento de Data Engineer, alojaran los datos en el DataWarehouse desarrollado en Google Cloud Platform. Una vez ahi Los datos se ingestaran directamente hacia Power BI a través de la conección que nos deja realizar este software con nustra base de datos. Para luego comenzar a trabajarlos y poder crear el mejor producto posible.
+
+![Foto camino del dato ](https://user-images.githubusercontent.com/65837646/228130436-3e91a743-82e4-44aa-8edc-d56ce0d84043.jpg)
+
+
+
+
+
 ## Estructura de tablas y Diccionario de datos
+
+* **Estructura de tablas**
+* **Diccionario de datos**
+
+
+
+
+
+
+
 
 ## Dashboard: Elementos y funcionalidades.
 <br>
@@ -66,7 +132,7 @@ ___
 ## Número 1: KPIs
 <br>
 
-Como se obserba en la figura de arriba, en la parte superior se encuentran 5 KPIs. Los 5 muestran a modo de ejemplo, el periódo de 6 meses comprendido entre las fechas 31/12/2018 y 30/06/2019.  
+Como se observa en la figura de arriba, en la parte superior se encuentran 5 KPIs. Los 5 muestran a modo de ejemplo, el periódo de 6 meses comprendido entre las fechas 31/12/2018 y 30/06/2019.  
 Los elementos dentro de las 5 figuras son los mismos. Por un lado el título de la métrica a la cual se hace referencia, seguido por el valor de la misma, el cual figura en verde o rojo dependiendo de si se ha cumplido con el objetivo propuesto o no respectivamente.  
 Inmediatamente por debajo del valor se encuentran el target u objetivo el cual no es otra cosa que el valor de la métrica al inicio del periodo mas un porcentaje que se pretenda alcanzar al finalizar el mismo.  
 A la derecha del target se encuentra un valor que muestra la diferencia numérica y porcentual entre el valor actual de la métrica y el target, de esta manera se puede observar específicamente el déficit o superhabit alcanzado.  
