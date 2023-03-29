@@ -10,8 +10,8 @@
     - [Azure Databricks](#connection-between-azure-databricks-and-azure-blob-storage)
     - [Machine Learning Model (ALS)](#machine-learning-modelals-and-training-it)
     - [Recommendation System](#recommendation-system)
-- [Usage](#Usage)    
-- [Contributing](#Contributing)
+- [Usage](#usage-mode)    
+- [Contributing](#contributions)
 
 
 # **Introduction**
