@@ -24,7 +24,7 @@ El proceso comienza definiendo un horario de actualización de los datos para qu
 
 <div id='Cloud-Function-(Get_API_Data)'/>
 
-### <a href="https://github.com/hikikae/Api-Data-Pipeline-Integration/tree/main/details_review_data"> Cloud Function (Get_API_Data)</a>
+### <a href="https://github.com/GastonOrphant/PG-YELP-GOOGLE-MAPS/tree/main/Api-Data-Pipeline-Integration/Get_API_Data"> Cloud Function (Get_API_Data)</a>
 El flujo de trabajo de la primer Cloud Function es obtener y almacenar la información relevante de los restaurantes. Para ello, se obtienen primero las coordenadas de ciertas ciudades dentro de los cinco estados con mayor densidad poblacional de los Estados Unidos, mediante Geocoding API. Posteriormente, se utiliza Places API para extraer los datos de restaurantes.
 
 <br>
@@ -48,7 +48,7 @@ Los datos se recolectan en su forma original, sin procesamiento previo, en un fo
 
 <div id='Segunda-Cloud-Function-(ETL_API_Function)'/>
 
-### <a href="https://github.com/hikikae/Api-Data-Pipeline-Integration/tree/main/details_to_dw_function"> Cloud Function (ETL_API_Function) </a>
+### <a href="https://github.com/GastonOrphant/PG-YELP-GOOGLE-MAPS/tree/main/Api-Data-Pipeline-Integration/ETL_API_function"> Cloud Function (ETL_API_Function) </a>
 En esta Cloud Function se llevó a cabo la transformación, limpieza y carga de los datos originales mediante la biblioteca de Pandas. Una vez completado el proceso, los datos se envían a un Bucket de Cloud Storage y se emite una notificación en Slack para informar sobre la finalización del mismo.
 
 <br>
