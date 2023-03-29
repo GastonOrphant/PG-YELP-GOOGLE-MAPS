@@ -9,8 +9,8 @@
     - [Conexión con Google Big Query](#conexión-entre-google-big-query-y-azure-data-factory)
     - [Azure Databricks](#conexion-entre-azure-databricks-y-azure-blob-storage)
     - [Modelo de Machine Learning (ALS)](#modelo-de-machine-learning-y-su-entrenamiento-als)
-    - [Sistema de recomendación](#sistema-de-recomendación)
-- [Uso](#uso)    
+    - [Sistema de recomendación](#sistema-de-recomendacic3b3n-1)
+- [Uso](#modo-de-uso)    
 - [Contribuciones](#contribuciones)
 
 
