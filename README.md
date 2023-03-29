@@ -1,16 +1,27 @@
-# **Proyecto: Análisis reviews de Google Maps y YELP**
+# **Proyecto: Análisis reviews en Google Maps y YELP**
 
 
-![Logo](https://user-images.githubusercontent.com/65837646/224367690-15359db3-7c2e-4ee4-9bfd-347ed091df9e.jpeg)
+<p align="center"><img src="https://user-images.githubusercontent.com/65837646/224367690-15359db3-7c2e-4ee4-9bfd-347ed091df9e.jpeg"></p>
 
 
 ## **Tabla de contenidos**
+- [¿Quienes Somos?](#Quienes-Somos)
+- [Nuestro Equipo](#Nuestro-Equipo)
+- [Descripción del Proyecto](#Descripción-del-proyecto)
+- [Objetivos](#Objetivos)
+- [Alcance](#Alcance)
+- [Stack Tecnológico](#Stack-Tecnológico)
+- [Metodología de Trabajo](#Metodología-de-Trabajo)
 
+<div id="Quienes-Somos"/>
 
 ## **Quienes Somos**
 
 Somos **TechLift**, un joven grupo de profesionales con amplia experiencia y con visión hacia el futuro, nos destacamos en el análisis de datos y los procesos empresariales.
 Provenientes de diversas áreas, pero con la misma vocación y pasión por la mejora de procesos de negocio.
+<br>
+
+<div id="Nuestro-Equipo"/>
 
 ## **Nuestro Equipo**
 
@@ -20,57 +31,69 @@ Provenientes de diversas áreas, pero con la misma vocación y pasión por la me
 - [Martin Giribone](https://github.com/MartinGiribonee), Data Analytics
 - [Gastón Orphant](https://github.com/GastonOrphant), Data Scientis
 
+<div id="Descripción-del-proyecto"/>
 
 ## **Descripción del Proyecto**
 
-Para este proyecto Techlift analizará de manera eficiente la información proveniente de las reviews de los usuarios de Google Maps y Yelp del sector culinario y hotelero de Estados Unidos. De esta manera,los gerentes podrán tomar eficientes decisiones. Ayudándolos a elegir ubicaciones valiosas para instalar nuevas sucursales. También mejorar la calidad de sus servicios y ofrecer mejores experiencias para los usuarios, obteniendo de ésta manera una ventaja competitiva.
+Techlift analizará de manera eficiente la información proveniente de las reseñas de los usuarios en Google Maps y Yelp en el sector culinario de Estados Unidos. Este análisis permitirá a los gerentes ofrecer un sistema de recomendación para los consumidores finales, el cual les proporcionará cinco recomendaciones de restaurantes más cercanos a ellos. De esta manera, se ofrecerá una mejor experiencia al usuario y podría usarse como una ventaja competitiva.
+<br>
 
-
+<div id="Objetivos"/>
 
 ## **Objetivos**
 
-Buscamos proporcionar el crecimiento de empresas a través de nuestro asesoramiento tecnologico y la toma de decisiones.
+Buscamos proporcionar el crecimiento de empresas a través de nuestro asesoramiento tecnológico y la toma de decisiones.
+<br>
 
+<div id="Alcance"/>
 
 ## **Alcance**
 
 Se encuentra dentro del alcance de este proyecto:
-- Negocios objetivo: sector culinarios, sector hotelero.(Ver)
-- La fuente que utulizamos como información son las reviews en Google Maps y Yelp.
-- Nos centramos en Estados Unidos, principalemente en los 5 estados con mayor población.
-- Los datos con los que contamos van desde 2004 a 2021.
+- Negocios objetivo: sector culinarios, catalogados como "Food Services".
+- La fuente que utilizamos como información son las reviews en Google Maps y Yelp.
+- Nos centramos en Estados Unidos, principalemente en los 5 estados con mayor densidad de población (Texas, California, Nueva York, Pensilvania y Florida).
+- Los datos comprenden un periodo de 2004 a 2021.
     
  **Fuera de nuestro alcance**:
 - Toda empresa fuera de Estados Unidos.
-- Toda empresa fuera de los sectores nombrados.
+- Toda empresa fuera del sector nombrado.
 - Cualquier tarea que demande más recursos que los ya mencionados.
+<br>
 
+<div id="Stack-Tecnológico"/>
 
+## **Stack Tecnológico**
 
-
-## **Stack tecnológico**
-
-- **Github:** Para subir nuestro repositorio.
-- **Trello:** Organización de nuestras tareas.
-- **Visual Studio Code:** Software que utilizamos para trabajar de forma local en el proyecto.
-- **Google Colab:** Lo utilizamos para trabajar en el proyecto de forma colaborativa y en la nube. 
-- **Google Cloud Storage:** Servicio Cloud en el que subiremos todos nuestros datasets crudos, con esto generamos un **Datalake**.
-- **Google Cloud API's:** Utilizaremos este servicio de Google Cloud para agregar información de diferentes fuentes de datos como lo puede ser Twitter.
-- **Google Cloud Functions:** Utilizaremos functions para poder "transformar" nuestros datos crudos a unos que nos sirvan para plantear nuestro modelo de negocio y a la vez abaratar costos.
-- **Amazon Web Service:** Utilizaremos esta plataforma Cloud para crear un **bucket** con los archivos ya transformados, de esta manera evitaremos sobrecargar Google Cloud...
+- **Github:** Alojamiento de nuestro repositorio.
+- **Trello:** Organización de tareas.
+- **Visual Studio Code:** Software para trabajar de forma local en el proyecto.
+- **Google Colab:** Servicio de Google para trabajar de forma colaborativa y en la nube. 
+- **Google Cloud Platform:** Plataforma de computación en la nube que ofrece una amplia gama de servicios de infraestructura y aplicaciones en la nube.
+- **Google Cloud Storage:** Servicio Cloud de almacenamiento.
+- **Google Cloud Function:** Servicio sin servidor para ejecutar código en respuesta a eventos.
+- **Google Cloud Scheduler:** Servicio para programar tareas en la nube.
+- **Google Big Query:** Servicio para hacer análisis de datos de gran escala en la nube.
+- **Google Cloud API's:** Conjunto de API's que permite acceder a los servicios y datos en la nube.
+- **Places API:** API de Google que permite acceder a información detallada sobre lugares y establecimientos
+- **Geocoding API:** API de Google que permite convertir direcciones en coordenadas geográficas y viceversa.
+- **Power BI:** Software de visualización de datos interactivo desarrollado por Microsoft.
+- **Python:** Lenguaje de programación usado para ciencia de datos.
+- **Azure Databricks:** Plataforma de análisis de datos basada en Apache Spark.
+- **Spark:** Motor de procesamiento de datos distribuido de código abierto.
+- **Azure Data Factory:** Servicio de integración de datos en la nube ofrecido por Microsoft Azure.
+- **Azure Blob Storage:** Servicio de almacenamiento en la nube de objetos escalable de Microsoft Azure.
+- **Postman:** Herramienta para probar y documentar API
 - **Azure:** Azure es otro Cloud Services el cual utilizaremos para crear un modelo de machine learning en pos de predecir cosas 
 - **Python:** Será el lenguaje de programación que elegiremos por su versatilidad, velocidad y confiabilidad.
-Utilizaremos librerias de este, creadas por la comunidad, para poder agilizar nuestro trabajo.
-Algunas librerias que utilizaremos serán:
-    - pandas:
-    - google.cloud:
-    - polar:
-    - NLTK: (TENTATIVA)
-    - streamlit: (TENTATIVA)
-    - scikit-learn: (TENTATIVA)
-- **Power BI:** Utilizaremos esta herramienta para realizar graficos en pos de mostrar nuestros KPI's de una forma visual. Su desventaja es que requiere de Windows 10 o superior para funcionar y no se puede utilizar en sistemas operativos que no sean Windows.
-- **Looker Studio:** Mismo que Power BI pero es de Google por lo que tiene una mejor integración con sus herramientas, ademas no requiere instalación y se puede utilizar en cualquier sistema operativo desde la web. (TENTATIVO)
+- **Pandas:** Libreria escrita para el lenguaje Python para la manipulación y el análisis de datos.
+- **Matplotlib:** Libreria en Python para crear visualizaciones de nuestros datos.
+- **Seaborn:** Libreria de visualización de datos de Python basada en matplotlib.
+- **Gradio:** Libreria para construir interfaces de usuario de modelos de aprendizaje automático.
+- **Plotly:** Libreria para visualización de datos interactiva y gráficos estadísticos.
+<br>
 
+<div id="Metodología-de-Trabajo"/>
 
 ## **Metodología de trabajo**
 
