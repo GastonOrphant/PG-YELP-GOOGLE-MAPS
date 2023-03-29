@@ -1,4 +1,4 @@
-# **Proyecto: Análisis reviews en Google Maps y YELP**
+<h1 align=center> Proyecto: Análisis de reviews en Google Maps y YELP </h1>
 
 
 <p align="center"><img src="https://user-images.githubusercontent.com/65837646/224367690-15359db3-7c2e-4ee4-9bfd-347ed091df9e.jpeg"></p>
