@@ -23,7 +23,7 @@ Cloud Scheduler is used to define a data update schedule for automatic loading o
 
 <div id='Cloud-Function-(Get_API_Data)'/>
 
-### <a href="https://github.com/hikikae/Api-Data-Pipeline-Integration/tree/main/details_review_data"> Cloud Function (Get_API_Data)</a>
+### <a href="https://github.com/GastonOrphant/PG-YELP-GOOGLE-MAPS/tree/main/Api-Data-Pipeline-Integration/Get_API_Data"> Cloud Function (Get_API_Data)</a>
 The first Cloud Function obtains and stores relevant restaurant information. It uses the Geocoding API to obtain the coordinates of certain cities in the five most densely populated states in the United States. Then, the Places API extracts the restaurant data. 
 
 <br>
@@ -47,7 +47,7 @@ The data is collected in its original form, without prior processing, in a JSON 
 
 <div id='Segunda-Cloud-Function-(ETL_API_Function)'/>
 
-### <a href="https://github.com/hikikae/Api-Data-Pipeline-Integration/tree/main/details_to_dw_function"> Cloud Function (ETL_API_Function) </a>
+### <a href="https://github.com/GastonOrphant/PG-YELP-GOOGLE-MAPS/tree/main/Api-Data-Pipeline-Integration/ETL_API_function"> Cloud Function (ETL_API_Function) </a>
 The second Cloud Function carries out the transformation, cleaning, and loading of the original data using the Pandas library. Once the process is complete, the data is sent to a Cloud Storage Bucket, and a notification is issued in Slack to inform about the completion of the process.
 
 <br>
