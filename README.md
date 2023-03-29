@@ -84,7 +84,7 @@ Se encuentra dentro del alcance de este proyecto:
 - **Azure Data Factory:** Servicio de integración de datos en la nube ofrecido por Microsoft Azure.
 - **Azure Blob Storage:** Servicio de almacenamiento en la nube de objetos escalable de Microsoft Azure.
 - **Postman:** Herramienta para probar y documentar API
-- **Azure:** Azure es otro Cloud Services el cual utilizaremos para crear un modelo de machine learning en pos de predecir cosas 
+- **Azure:** Servicio Cloud para crear un modelo de machine learning en pos de predecir cosas. 
 - **Python:** Será el lenguaje de programación que elegiremos por su versatilidad, velocidad y confiabilidad.
 - **Pandas:** Libreria escrita para el lenguaje Python para la manipulación y el análisis de datos.
 - **Matplotlib:** Libreria en Python para crear visualizaciones de nuestros datos.
