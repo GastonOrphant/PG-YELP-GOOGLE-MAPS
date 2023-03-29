@@ -100,4 +100,5 @@ Se encuentra dentro del alcance de este proyecto:
 Utilizaremos un método de trabajo ágil con enfoque en la metodología SCRUM apoyándonos en el software de administración de proyectos Trello, en donde dividiremos y asignaremos las actividades a realizar, actualizaremos nuestro diagrama de Gantt y mantendremos un seguimiento a todo el proyecto.
 
 
-![Scrumm](https://user-images.githubusercontent.com/65837646/224367958-d317f972-fddf-4958-b178-38675c27f1d7.jpg)
+![Metodologia_Scrum_2](https://user-images.githubusercontent.com/65837646/228570444-5d0726c2-2f51-4095-900e-939541333e59.jpg)
+
