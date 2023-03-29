@@ -35,7 +35,7 @@ Provenientes de diversas áreas, pero con la misma vocación y pasión por la me
 
 ## **Descripción del Proyecto**
 
-Techlift analizará de manera eficiente la información proveniente de las reseñas de los usuarios en Google Maps y Yelp en el sector culinario de Estados Unidos. Este análisis permitirá a los gerentes ofrecer un sistema de recomendación para los consumidores finales, el cual les proporcionará cinco recomendaciones de restaurantes más cercanos a ellos. De esta manera, se ofrecerá una mejor experiencia al usuario y podría usarse como una ventaja competitiva.
+Techlift analizará de manera eficiente la información proveniente de las reseñas de los usuarios en Google Maps y Yelp dentro del sector culinario de Estados Unidos. Y enriquecerá estos con data proveniente de API's externas. Este análisis permitirá a los gerentes ofrecer un sistema de recomendación para los consumidores finales, el cual les proporcionará cinco recomendaciones de restaurantes más cercanos a ellos. De esta manera, se ofrecerá una mejor experiencia al usuario y podría usarse como una ventaja competitiva.
 <br>
 
 <div id="Objetivos"/>
@@ -50,8 +50,8 @@ Buscamos proporcionar el crecimiento de empresas a través de nuestro asesoramie
 ## **Alcance**
 
 Se encuentra dentro del alcance de este proyecto:
-- Negocios objetivo: sector culinarios, catalogados como "Food Services".
-- La fuente que utilizamos como información son las reviews en Google Maps y Yelp.
+- Negocios objetivo: sector culinario, catalogado como "Food Services".
+- La fuente que utilizamos como información son las reviews en Google Maps y Yelp, así como la data externa a través de las API's.
 - Nos centramos en Estados Unidos, principalemente en los 5 estados con mayor densidad de población (Texas, California, Nueva York, Pensilvania y Florida).
 - Los datos comprenden un periodo de 2004 a 2021.
     
@@ -101,5 +101,3 @@ Utilizaremos un método de trabajo ágil con enfoque en la metodología SCRUM ap
 
 
 ![Scrumm](https://user-images.githubusercontent.com/65837646/224367958-d317f972-fddf-4958-b178-38675c27f1d7.jpg)
-
-
