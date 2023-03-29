@@ -1,0 +1,16 @@
+# Function dependencies, for example:
+# package>=version
+google-cloud-bigquery>=2.0
+google-cloud-storage
+gcsfs
+fsspec
+pandas
+pandas-gbq
+pyarrow
+fastparquet
+textblob
+functions_framework
+db-dtypes
+datetime
+numpy
+requests
