@@ -1,0 +1,11 @@
+# Function dependencies, for example:
+# package>=version
+functions-framework
+gcsfs
+fsspec
+pandas
+pandas-gbq
+pyarrow
+fastparquet
+textblob
+db-dtypes
